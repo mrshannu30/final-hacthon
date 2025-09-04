@@ -12,7 +12,7 @@
     <div class="container">
       <h1>NSS Unit - Your College</h1>
       <nav>
-        <ul>
+        <ul id="nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#activities">Activities</a></li>
@@ -20,6 +20,7 @@
           <li><a href="#team">Team</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
+        <div id="menu-toggle">&#9776;</div>
       </nav>
     </div>
   </header>
@@ -70,6 +71,12 @@
     </div>
   </section>
 
+  <!-- Lightbox -->
+  <div id="lightbox">
+    <span id="close">&times;</span>
+    <img id="lightbox-img" src="" alt="">
+  </div>
+
   <!-- Team Section -->
   <section id="team" class="section">
     <div class="container">
@@ -104,5 +111,8 @@
   <footer>
     <p>&copy; 2025 NSS Unit - Your College. All Rights Reserved.</p>
   </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
 </body>
 </html>
